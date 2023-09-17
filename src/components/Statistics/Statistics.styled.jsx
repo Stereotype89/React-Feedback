@@ -2,37 +2,33 @@ import styled from '@emotion/styled';
 
 export const Title = styled.h2`
   margin-bottom: 20px;
-  text-align: center;
+  text-align: left;
 `;
 
 export const StatBox = styled.ul`
-  display: flex;
   gap: 10px;
-  justify-content: center;
-  align-items: center;
+  justify-content: left;
+  align-items: left;
   list-style: none;
 `;
 
 export const StatItem = styled.li`
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  align-items: left;
   gap: 4px;
   font-size: 20px;
-  font-weight: 700;
+  font-weight: 600;
 `;
 
 export const Item = styled.span`
-  width: 70px;
-  font-weight: 700;
-  font-size: 30px;
+  font-weight: 600;
+  font-size: 20px;
   line-height: 2, 5;
   text-align: center;
 `;
 
 export const TotalText = styled.p`
-  margin: 10px 0 10px 20px;
   font-size: 20px;
+  font-weight: 700;
   color: #212121;
 `;
 

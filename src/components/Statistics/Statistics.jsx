@@ -32,10 +32,10 @@ export const Statistics = ({
         </StatItem>
       </StatBox>
       <TotalText>
-        Total feedbacks: <TotalVal>{total}</TotalVal>
+        Total: <TotalVal>{total}</TotalVal>
       </TotalText>
       <TotalText>
-        Positive Feedbacks:{' '}
+        Positive feedback:{' '}
         <TotalVal>{total ? positivePercentage : 0} %</TotalVal>
       </TotalText>
     </>

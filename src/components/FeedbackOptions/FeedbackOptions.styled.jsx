@@ -13,14 +13,17 @@ export const BtnFeedback = styled.button`
   height: 30px;
   font-weight: 700;
   font-family: inherit
-  
   background-color: white;
   color: black;
-  transition-property: background-color color border;
-  transition: 200ms;
-  :active {
-   
-    color: white;
-    background-color: grey;
+  border-radius: 4px;
+   border: 1px solid;
+  transition-property: background-color transition-duration;
+  transition-duration: 200ms;
+  cursor: pointer;
+  &:active, &:hover {
+   background-color: #209bd8;
+   border-radius: 4px;
+   border: 1px solid;
+   color: white;
   }
 `;
